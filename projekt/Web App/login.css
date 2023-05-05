@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    position: relative;
+    height: 80px;
+    width: 100%;
+    background-color:#8B008B;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;  
+}
+.log-in{
+    border: none;
+    letter-spacing: 0.5px;
+    border-radius: 7px;
+    color: snow;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    cursor: pointer;
+}
+.log-in:hover{
+    background-color: snow;
+    border: none;
+    border-radius: 7px;
+    color: #8B008B;
+    padding: 5px 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.nav-links{
+    text-decoration: none;
+    position: relative;
+    color: snow;
+    font-size: 25px;
+    margin: 40px;
+    letter-spacing: 0.5px;
+}
+.nav-links:after{
+    content: "";
+    position: absolute;
+    background-color: snow;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.4s;
+}
+.nav-links:hover{
+    cursor: pointer;
+}
+a:hover:after{
+    width: 100%;
+}
+.logo{
+    width: 110px;
+}
+body{
+    font-family: Helvetica;
+    scroll-behavior: smooth;
+}
+.loginform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    position: relative;
+    margin-top: 100px;
+    width: 450px;
+    height: auto;
+    border-radius: 5px;
+    background: #8B008B;
+}
+.label{
+    padding: 20px 130px;
+    font-size: 35px;
+    font-weight: bold;
+    color: snow;
+    text-align: center;
+}
+.login_form{
+    padding: 20px 40px;
+}
+.login_form .font{
+    font-size: 18px;
+    color: snow;
+    margin: 5px 0;
+}
+.login_form input{
+    height: 40px;
+    width: 350px;
+    padding: 0 5px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid silver;
+}
+.login_form .font2{
+    margin-top: 30px;
+}
+.login_form button{
+    margin: 45px 0 30px 0;
+    height: 45px;
+    width: 365px;
+    font-size: 20px;
+    color: #8B008B;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    background: snow;
+    border-radius: 3px;
+    border: 1px solid silver;
+}
+.login_form #email_error,
+.login_form #pass_error{
+    margin-top: 5px;
+    width: 345px;
+    font-size: 18px;
+    color: snow;
+    background: rgba(255, 0, 0, 1);
+    text-align: center;
+    padding: 5px 8px;
+    border-radius: 3px;
+    border: 1px solid #EF9A9A;
+    display: none;
+}

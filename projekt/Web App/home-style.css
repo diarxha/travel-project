@@ -1,0 +1,305 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    position: relative;
+    height: 80px;
+    width: 100%;
+    background-color:#8B008B;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;  
+}
+.log-in{
+    border: none;
+    letter-spacing: 0.5px;
+    border-radius: 7px;
+    color: snow;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    cursor: pointer;
+}
+.log-in:hover{
+    background-color: snow;
+    border: none;
+    border-radius: 7px;
+    color: #8B008B;
+    padding: 5px 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.nav-links{
+    text-decoration: none;
+    position: relative;
+    color: snow;
+    font-size: 25px;
+    margin: 40px;
+    letter-spacing: 0.5px;
+}
+.nav-links:after{
+    content: "";
+    position: absolute;
+    background-color: snow;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.8s;
+}
+.nav-links:hover{
+    cursor: pointer;
+}
+a:hover:after{
+    width: 100%;
+}
+.logo{
+    width: 110px;
+}
+body{
+    font-family: Roboto, Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+.schedule-bar{
+    display: flex;
+    justify-content: flex-start;
+}
+.game{
+    height: 100px;
+    width: 250px;
+    border: 2px solid #352f44 ;
+    background-color: snow;
+    display: grid;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    border-right: 1px;
+}
+.home-away{
+    position: relative;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 15px;
+    border-bottom: 0.5px solid #352f44;
+    height: 20px;
+    width: 248px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: silver;
+}
+.vs-team{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-right: 0.5px solid #352f44;
+    width: 160px;
+    height: 77px;
+}
+.miami{
+    margin: -25px;
+    width: 135px;
+}
+.boston{
+    width: 45px;
+}
+.boston-name{
+    margin-left: 10px;
+}
+#team-first{
+    font-weight: bolder;
+}
+.game-date{
+    margin-top: 10px;
+}
+.phoenix{
+    width: 60px;
+    margin-right: 5px;
+}
+.nets{
+    width: 40px;
+    margin-right: 10px;
+}
+.bulls{
+    width: 50px;
+    margin-right: 10px;
+}
+.jazz{
+    width: 55px;
+    margin-right: 15px;
+}
+.pistons{
+    width: 50px;
+    margin-right: 10px;
+}
+.fixtures{
+    height: 100px;
+    width: 250px;
+    border-left: 0.5px;
+    border: 2px solid #352f44 ;
+    background-color: snow;
+    display: grid;
+}
+.tickets{
+    text-decoration: none;
+    text-align: center;
+    font-weight: bolder;
+    color: #352f44;
+    padding: 10px 5px;
+    text-align: center;
+    font-size: 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+.tickets:hover{
+    background-color: #352f44;
+    border: none;
+    border-radius: 7px;
+    color: snow;
+    transition: 0.7s;
+}
+.web-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.first-elements{
+    height: 500px;
+    width: 100%;
+    border: 1px solid #352f44 ;
+    background-color: snow;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 120px;
+
+}
+.last-game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.previous-game{
+    height: 300px;
+    width: 820px;
+    border: 2px solid #352f44 ;
+    background-color: snow;
+    display: grid;
+}
+.game-result{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-auto-columns: 100px;
+}
+.versus{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 30px;
+    padding-left: 35px;
+    font-weight: bolder;
+    color: #352f44;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.lakers-logo{
+    width: 150px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.magic-logo{
+    width: 120px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.game-score{
+    display: flex;
+}
+.lakers-points{
+    padding-left: 20px;
+    margin-top: 15px;
+    margin-left: 25px;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #352f44;
+}
+.magic-points{
+    font-weight: bolder;
+    font-size: 30px;
+    color: #352f44;
+    margin-left: 140px;
+    margin-top: 15px;
+}
+.player-stats{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.stats{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+}
+a:link, a:visited, a:hover, a:active{
+    text-decoration: none;
+}
+.teams{    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70px;
+    padding: 3px;
+    color: black;
+    border-top: 1px solid black;
+}
+.rank{
+    color: #352f44;
+    font-weight: bold;
+}
+.video-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.potw{
+    padding: 100px 150px;
+    display: flex;
+    justify-content: flex-end;
+}
+.second-elements{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.right-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lbj-birthday{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.bday-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}

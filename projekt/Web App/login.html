@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In and Sign Up</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="navbar">
+        <img src="./img/lakers.png" class="logo">
+            <nav class="navbar-container">
+                <a href="home.html" class="nav-links">Home</a>
+                <a href="squad.html" class="nav-links">Squad</a>
+                <a href="about.html" class="nav-links">About</a>
+                <a class="log-in">Log In</a>
+            </nav>
+    </div>
+
+<div class="loginform">
+    <div class="container">
+        <h1 class="label">Log In</h1>
+        <form class="login_form" action="home.html" method="post" name="form" onsubmit="return validated()">
+            <div class="font">Email</div>
+            <input autocomplete="off" type="text" name="email">
+            <div id="email_error">Please fill up your Email</div>
+            <div class="font font2">Password</div>
+            <input type="password" name="password">
+            <div id="pass_error">Please fill up your Password</div>
+            <button type="submit">Log In</button>
+        </form>
+    </div>
+</div>
+<script src="index.js"></script>
+
+</body>
+</html>

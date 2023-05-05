@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    position: absolute;
+    height: 80px;
+    width: 100%;
+    background-color:#8B008B;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;  
+}
+.nav-links{
+    text-decoration: none;
+    position: relative;
+    color: snow;
+    font-size: 25px;
+    margin: 40px;
+    letter-spacing: 0.5px;
+}
+.nav-links:after{
+    content: "";
+    position: absolute;
+    background-color: snow;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.4s;
+}
+.nav-links:hover{
+    cursor: pointer;
+}
+a:hover:after{
+    width: 100%;
+}
+.log-in{
+    border: none;
+    letter-spacing: 0.5px;
+    border-radius: 7px;
+    color: snow;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    cursor: pointer;
+}
+.log-in:hover{
+    background-color: snow;
+    border: none;
+    border-radius: 7px;
+    color: #8B008B;
+    padding: 5px 15px;
+    text-align: center;
+    cursor: pointer;
+}
+.logo{
+    width: 110px;
+}
+body{
+    font-family: Helvetica;
+}
+.content{
+    position: absolute;
+    height: 100;
+    margin: 120px;
+    width: 1600px;
+    border: 1px solid #352f44 ;
+    background-color: snow;
+    padding: 60px;
+}
+.section1{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.minneapolis{
+    margin-top: 60px;
+    width: 900px;
+    align-self: center;
+}
+.section2{
+    margin-top: 50px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.bw{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.baylor-west{
+    width: 300px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.nbalogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section3{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.section4{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.section5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+.kobeshaq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section6{
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.kobe5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+.lakers2020{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}

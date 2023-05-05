@@ -1,0 +1,88 @@
+.roster{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.player{
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 50px;
+    width: 400px;
+    height: 450px;
+    background-color: #8B008B;
+    border-radius: 10px;
+}
+.info{
+    font-weight: bold;
+    display: grid;
+    column-gap: 40px;   
+    row-gap: 50px; 
+    color: snow;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.number{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border-right: 1px solid snow;
+    padding: 20px;
+    margin-right: -40px;
+}
+.name{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    border-right: 0.1px solid #8B008B;
+    margin-right: -40px;
+    margin: left: -40px;
+    padding: 20px;
+}
+.position{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    border-left: 1px solid snow;
+    padding: 20px;
+}
+.player-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.player-links1{
+    margin-right: 40px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: none;
+    background-color: snow;
+    border: none;
+    border-radius: 10px;
+    color: #8B008B;
+    padding: 10px 25px;
+    text-align: center;
+    cursor: pointer;
+}
+.player-links2{
+    margin-left: 40px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: snow;
+    border: none;
+    border-radius: 7px;
+    color: #8B008B;
+    padding: 10px 25px;
+    text-align: center;
+    cursor: pointer;
+}
