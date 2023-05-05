@@ -1,0 +1,140 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.deleteGame-Home{
+    position: absolute;
+    top: 0.5em;
+    color: purple;
+    right: 0.5em;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.deleteGame-Away{
+    position: absolute;
+    top: 0.5em;
+    color: snow;
+    right: 0.5em;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.hide{
+    display: none;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: purple;
+    width: 100%;
+    position: sticky;
+    z-index: 999;
+}
+.nav-links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+.logo{
+    width: 4.7em;
+    margin-right: 10em;
+}
+.links{
+    color: ghostwhite;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 2em;
+    font-size: 1.1em;
+    letter-spacing: 0.5px;
+}
+.links:hover{
+    color: gold;
+    transition: ease-in-out 0.3s;
+}
+#btn{
+    background: ghostwhite;
+    color: purple;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 6px;
+}
+#btn:hover{
+    cursor: pointer;
+    background: gold;
+}
+.games{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.game-info-home{
+    position: relative;
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 50px;
+    width: 400px;
+    height: 450px;
+    background-color: ghostwhite;
+    border-radius: 20px;
+    border: 2px solid snow;
+}
+.home-away{
+    font-weight: bolder;
+    font-size: 1.7rem;
+    color: purple;
+}
+.opp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2rem;
+    margin-top: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.opp-logo{
+    width: 11rem;
+}
+.date-time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.8rem;
+    margin-top: 1.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.game-info-away{
+    position: relative;
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 50px;
+    width: 400px;
+    height: 450px;
+    background-color: purple;
+    border-radius: 20px;
+    border: 2px solid purple;
+
+}
+body{
+    background-image: url('../img/mbasja5.jpg');
+    background-size: contain;
+    background-position: center;
+    }

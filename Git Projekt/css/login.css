@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.login-form {
+    width: 300px;
+    margin: 10em auto;
+    padding: 1em;
+    background-color: ghostwhite;
+    border: 1px solid silver;
+    border-radius: 10px;
+  }
+  
+  .login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    color: purple;
+   margin-bottom: 1em;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid silver  ;
+    border-radius: 10px;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: purple;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: purple;
+  }
+  
+  /* Register */
+  .register-form {
+    width: 300px;
+    margin: 10em auto;
+    padding: 20px;
+    background-color: ghostwhite;
+    border: 1px solid silver;
+    border-radius: 5px;
+  }
+  
+  .register-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: purple;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: purple;
+  }
+  .hide{
+    display: none;
+  }
+  .open-register,.open-login{
+    cursor: pointer;
+    color: purple;
+  }
